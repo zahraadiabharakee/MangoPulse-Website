@@ -1,0 +1,195 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #fff;
+  }
+  .hero-container video {
+   margin-top: -210px !important;
+  }
+  .hero-container {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+  .hero-container h1 {
+    color:#fff !important;
+    font-size: 100px;
+    margin-top:-500px;
+  }
+ .hero-container >p {
+    margin-top:8px;
+    color:white;
+    font-size:32px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ }
+ .btn {
+  margin-left:10px;
+  padding:10px 20px;
+ }
+ .hero-btns {
+    margin-top:32px;
+  
+    
+ }
+ .hero-btns .btns{
+ 
+    margin:10px; 
+    
+ }
+ .fa-play-circle{
+    margin-left:4px;
+ }
+
+ @media screen and (max-width:991px)
+ {
+    .hero-container >h1 {
+        
+        font-size: 70px;
+        margin-top:-400px;
+      }
+      .hero-container video {
+        margin-top: -150px !important;
+       }
+       .new-email-bx button {
+        font-size: 15px;
+        padding:15px 30px;
+       } 
+       .nav-link#projects-tabs-tab-first {
+        font-size: 14px !important;
+        padding:15px;
+       }
+       .nav-link#projects-tabs-tab-second {
+        font-size: 14px !important;
+        padding:15px;
+       }
+       .nav-link#projects-tabs-tab-third {
+        font-size: 14px !important;
+        padding:15px;
+       }
+       .buttonProject {
+        margin-left: 290px !important;
+      }
+      .proj-imgbx{
+        width:230px !important;
+      }
+      .proj-txtx {
+        font-size: 10px;
+      }
+      .react-multiple-carousel__arrow {
+          margin:-20px;
+      }
+      #hi{
+        font-size: 30px;
+      }
+     
+      .team .details button {
+        font-size: 15px;
+        padding:15px 20px !important;
+        margin-top:20px;
+        margin-left: 11px !important;
+      }
+
+ }
+ @media screen and (max-width:900px)
+ {
+  .hero-container video {
+    margin-top: -80px !important;
+   }
+   .btn {
+    width:100%;
+    margin-bottom: 10px;
+  }
+  
+  
+ }
+
+ @media screen and (max-width:770px)
+ {
+    .hero-container >h1 {
+        
+        font-size: 50px;
+        margin-top:-100px;
+      }
+      .hero-container >p {
+        font-size: 30px;
+      }
+      .btn-mobile{
+        display: block;
+        text-decoration: none;
+      }
+      .btn {
+        width:100%;
+        margin-bottom: 10px;
+      }
+      .hero-container >h1 {
+        
+        font-size: 70px;
+        margin-top:-400px;
+      }
+      .hero-container video {
+        margin-top: -75px !important;
+       }
+       .buttonProject {
+        margin-left: 170px !important;
+      }
+      .nav-link#projects-tabs-tab-first {
+        font-size: 12px !important;
+        padding:12px;
+       }
+       .nav-link#projects-tabs-tab-second {
+        font-size: 12px !important;
+        padding:12px;
+       }
+       .nav-link#projects-tabs-tab-third {
+        font-size: 12px !important;
+        padding:12px;
+       }
+       .react-multiple-carousel__arrow {
+        background: none !important;
+     
+    }
+    
+}
+
+@media screen and (max-width:575px)
+{
+  .buttonProject {
+    margin-left: 150px !important;
+  }
+  .nav-link#projects-tabs-tab-first {
+    font-size: 12px !important;
+    
+    padding:15px;
+   }
+   .nav-link#projects-tabs-tab-second {
+    font-size: 12px !important;
+    padding:15px;
+   }
+   .nav-link#projects-tabs-tab-third {
+    font-size: 12px !important;
+    padding:15px;
+   }
+   .proj-imgbx{
+    margin-left: 100px;
+    width:400px;
+  }
+  .react-multiple-carousel__arrow {
+    margin:-40px;
+}
+.item h5{
+  font-size: 15px;
+  color:#fff !important;
+}
+.hero-container video {
+  margin-top: 300px !important;
+ }
+}

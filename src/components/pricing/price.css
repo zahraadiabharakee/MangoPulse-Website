@@ -1,0 +1,103 @@
+.price .items {
+    padding: 40px;
+    text-align: center;
+  }
+  .price h1 {
+    font-size: 50px;
+    margin: 20px 0;
+    color: #ffb236;
+  }
+  .price h1 span {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #444;
+  }
+  .price p {
+    color: grey;
+    margin: 40px 0;
+  }
+  /*--------------faq-------------*/
+  .faq{
+    background-color: #ffb236;
+   
+  }
+  .faq .container {
+    background-color: #ffb236;
+    max-width: 80%;
+    
+  }
+ 
+  .title-faq1, .title-faq2  {
+    
+    margin-left:200px;
+    padding:20px !important;
+    background-color: #ffb236 !important;
+    color: #fff !important;
+    font-size: 70px;
+  }
+  .title-faq1{
+    padding-top: 50px !important;
+  }
+  .title-faq2 {
+    padding-bottom: 50px !important;
+   }
+  .title-faq1:before{
+    display:block;
+    height:15px;
+    background-color: white;
+    content:''; 
+    width:140px;
+    border-radius: 20px;
+    margin: 12px auto;
+    margin-top: 30px;
+    margin-left: -10px;
+    
+}
+
+  .faq .box {
+
+    margin-bottom: 20px;
+  }
+  .faq button {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 20px;
+  }
+ 
+  .faq h2 {
+    margin-left: -120px;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .faq h2:hover:after{
+    display:block;
+    height:2px;
+    background-color: white;
+    content:''; 
+    width:80%;
+    margin-left:80px;
+   
+  }
+  
+  .faq p {
+    padding: 20px;
+    color:#fff;
+  }
+  .faq .accordion:before {
+    background-color: #ffb236;
+    color: #fff;
+  
+  }
+  #arrow{
+    padding:20px;
+    opacity: 0.6;
+  }
+  #arrow:hover{
+    
+    opacity: 1;
+  }
+  
+  /*--------------faq-------------*/

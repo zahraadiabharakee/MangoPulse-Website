@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0226b192.css",
+    "main.js": "/static/js/main.2c0278b0.js",
+    "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
+    "static/media/national.png": "/static/media/national.0dc996593edc9859dff2.png",
+    "static/media/cms-development.gif": "/static/media/cms-development.cdc4221a5caed9163075.gif",
+    "static/media/alitihad.png": "/static/media/alitihad.8c15b8240775dd4e85d0.png",
+    "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/zahrat-al-khalij.png": "/static/media/zahrat-al-khalij.45de74ba91a08d86fe08.png",
+    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/giphy.gif": "/static/media/giphy.c9e0be8dc25aacd89b30.gif",
+    "static/media/download2.png": "/static/media/download2.22d1747525fd97165e0e.png",
+    "static/media/download.jpg": "/static/media/download.65d800285a020e7f37a2.jpg",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/marketing.svg": "/static/media/marketing.723453227206232af4893dec5c2b6cf7.svg",
+    "static/media/CMS-Website-Bgrafio.gif": "/static/media/CMS-Website-Bgrafio.353c06cb0c69860842cb.gif",
+    "static/media/mangopulse.png": "/static/media/mangopulse.369ba5e2c0ad74de656f.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/uskinned-logo-no-bg.webp": "/static/media/uskinned-logo-no-bg.5910a05c3c824631d917.webp",
+    "static/media/qbank-transparent-bg.webp": "/static/media/qbank-transparent-bg.ff178a798a07e38a7ed8.webp",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/ucommerce-no-bg.webp": "/static/media/ucommerce-no-bg.6b91515d119a9430c1a6.webp",
+    "static/media/umarketingsuite-logo-no-bg.webp": "/static/media/umarketingsuite-logo-no-bg.dbcc5b92c9b4b914cefb.webp",
+    "index.html": "/index.html",
+    "static/media/arrow2.svg": "/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
+    "static/media/arrow1.svg": "/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
+    "main.0226b192.css.map": "/static/css/main.0226b192.css.map",
+    "main.2c0278b0.js.map": "/static/js/main.2c0278b0.js.map",
+    "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0226b192.css",
+    "static/js/main.2c0278b0.js"
+  ]
+}

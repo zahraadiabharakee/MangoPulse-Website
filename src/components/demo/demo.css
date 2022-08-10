@@ -1,0 +1,69 @@
+.counter {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff !important;
+  
+  }
+ .Zal {
+    background-color: #ffb236 !important;
+    padding:40px;
+ }
+  .counter__title {
+    font-size: 1rem;
+    color: #fff !important;
+    font-weight: 500;
+  }
+  
+  .demo__content h2{
+    
+    padding-left: 50px;
+    padding-bottom: 10px;
+    color :#fff !important;
+  }
+ .demo__content p {
+    color:#fff !important;
+ }
+
+    .demo__content button {
+        background-color: #fff !important;
+        color:#ffb236 !important;
+        margin-left: 200px !important;
+        border-radius: 10px;
+       
+    }
+  .demo__img video {
+    margin-top: -5px !important;
+    width:100%;
+    border-radius: 40px !important;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    z-index: 2;
+   
+    
+  }
+  
+  .demo__content h2 {
+    margin-top: 50px !important;
+    font-weight: 600;
+    text-align: center !important;
+  }
+  .demo__content h4{
+    color: #ffb236 !important;
+    font-size:15px;
+    letter-spacing: 2px;
+  }
+  .demo__content h4:hover{
+    transform: scale(1.01);
+  }
+  .demo__content h2:after{
+    display:block;
+    height:10px;
+    background-color: #fff;
+    content:''; 
+    width:140px;
+    border-radius: 20px;
+    margin: 12px auto;
+    text-align: center;
+  
+  
+  }
+ 
