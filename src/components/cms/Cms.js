@@ -15,7 +15,7 @@ export const Cms = (props) =>  {
         <Row>
           <Col lg="6" md="6">
             <div className="cms__content">
-              <h2>{props.page.cms_title}</h2>
+              <h1>{props.page.cms_title}</h1>
               <p>
                {props.page.cms_description}
               </p>

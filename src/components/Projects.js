@@ -34,7 +34,7 @@ export const Projects = (props) => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              <div className={isVisible ? "animate__animated animate__fadeIn": ""} style={{textAlign:"center", alignItems:'center'}}>
                 <h2>{props.page.Title}</h2>
                 <p>{props.page.Description_A}</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">

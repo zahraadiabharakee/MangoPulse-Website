@@ -923,12 +923,6 @@ h1 {
   }
   
 }
-@media only screen and (max-width: 1200px) {
-  .buttonProject{
-    margin-left: 400px !important;
-  }
-  
-}
 
 @media only screen and (min-width: 1024px) {
   
@@ -939,7 +933,7 @@ h1 {
     margin-left: -5px !important;
   }
   .products__img img{
-    margin-top: 140px !important;
+    
     margin-left: 100px !important;
     
   }
@@ -1593,9 +1587,6 @@ p {
      .hero-container video {
        margin-top: -75px !important;
       }
-      .buttonProject {
-       margin-left: 170px !important;
-     }
      .nav-link#projects-tabs-tab-first {
        font-size: 12px !important;
        padding:12px;
@@ -1623,9 +1614,6 @@ p {
   .react-multiple-carousel__arrow{
     margin:-30px !important;
   }
- .buttonProject {
-   margin-left: 150px !important;
- }
  .nav-link#projects-tabs-tab-first {
    font-size: 12px !important;
    
@@ -1661,9 +1649,6 @@ p {
    }
 }
 @media screen and (max-width:530px){
-  .buttonProject{
-    margin-left: 140px !important;
-  }
   .proj-imgbx {
     margin-left: 80px !important;
     
@@ -1694,7 +1679,7 @@ p {
     padding: 10px !important;
   }
 }
-
+/* 
 @media screen and (min-width:1200px){
   .buttonProject {
     margin-left: 500px !important;
@@ -1729,4 +1714,4 @@ p {
   .buttonProject {
     margin-left: 70px !important;
   }
-}
+} */
