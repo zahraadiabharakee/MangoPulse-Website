@@ -1,0 +1,92 @@
+.counter {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0a2b1e;
+  }
+  
+  .counter__title {
+    font-size: 1rem;
+    color: #0a2b1e;
+    font-weight: 500;
+  }
+  
+  .CmsBanner__content {
+   padding: 80px !important;
+   background-color: #f9f7f4 !important;
+  }
+  
+ 
+  .CmsBanner__img {
+    padding-bottom: 40px !important;
+  }
+  
+  .CmsBanner__content h2 {
+    margin-top: 50px !important;
+    font-weight: 600;
+    text-align: center !important;
+  }
+  .CmsBanner__content h4{
+    color: #ffb236 !important;
+    font-size:15px;
+    letter-spacing: 2px;
+  }
+  .CmsBanner__content h4:hover{
+    transform: scale(1.01);
+  }
+  .CmsBanner__content h2:after{
+    display:block;
+    height:10px;
+    background-color: #ffb236;
+    content:''; 
+    width:140px;
+    border-radius: 20px;
+    margin: 12px auto;
+    text-align: center;
+  
+  
+  }
+  @media screen and (max-width:992px)
+  {
+    .CmsBanner__content {
+      margin-left: -40px !important;
+      padding: 0 0 0 70px !important ;
+      
+    }
+    .CmsBanner__img  {
+      margin-top: 100px !important;
+      margin-left: 0px !important;
+      width:350px !important;
+    }
+    
+  }
+  @media screen and (max-width:768px)
+  {
+    .CmsBanner__content {
+      margin-left: -100px !important;
+      padding: 30px !important;
+    }
+    .CmsBanner__img {
+      margin-left: 0px !important;
+       
+    }
+    .CmsBanner__content p {
+      margin-left: 100px !important;
+    }
+    .CmsBanner__content h4{
+      margin-left: 100px !important;
+    }
+    .CmsBanner__img img {
+      width:500px !important;   
+    }
+    .play__icon {
+      margin-top: -80px !important;
+    }
+  }
+  @media screen and (max-width:575px){
+    .CmsBanner__img img {
+      margin-left: -20px !important;
+    }
+    .CmsBanner__content h2{
+      margin-left: 100px !important;
+    }
+  }

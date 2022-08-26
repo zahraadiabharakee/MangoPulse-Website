@@ -34,15 +34,16 @@
     font-size: 40px;
     padding:10px 10px 20px 0;
   }
+ 
   .fa {
-    color:#ffb236 !important ; 
+    color:#8260D0 !important ; 
     padding: 0 10px  0 0  !important ;
   }
   .products__content p {
     color : grey !important ;
   }
   .products__content h4{
-    color: #ffb236 !important;
+    color: #8260D0 !important;
     font-size:15px;
     letter-spacing: 2px;
   }

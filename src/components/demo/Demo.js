@@ -4,16 +4,20 @@ import { Container, Row, Col } from "reactstrap";
 import demoImg from "../../assets/videos/cms.mp4";
 import CountUp from "react-countup";
 import "./demo.css";
-
+import {constants} from "../../Const"
 export const Demo = (props) =>  {
   if(props.page){
+    var video ="";
+    if(props.page.demo_media && props.page.demo_media.data && props.page.demo_media.data.length>0){
+     video = constants.link+props.page.demo_media.data[0].attributes.url ;
+    }
   return (
-    <section className="Zal">
+    <section className="Zal" >
       <Container >
         <Row>
           <Col lg="6" md="6">
             <div className="demo__img">
-            <video src='/videos/CMS.mp4' autoPlay loop muted />
+            <video src={video} autoPlay loop muted />
             </div>
           </Col>
 

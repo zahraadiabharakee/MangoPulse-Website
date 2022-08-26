@@ -7,43 +7,43 @@ export const Footer = (props) =>  {
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>{props.page.Section1}</h2>
-            <a to='/sign-up'>{props.page.section1a}</a>
-            <a to='/'>{props.page.section1b}</a>
-            <a to='/'>{props.page.section1c}</a>
-            <a to='/'>{props.page.section1d}</a>
-            <a to='/'>{props.page.section1e}</a>
+            <h2>{props.page.Section_1_title}</h2>
+            <a to='/sign-up'>{props.page.Section_1_paragraph_1}</a>
+            <a to='/'>{props.page.Section_1_paragraph_2}</a>
+            <a to='/'>{props.page.Section_1_paragraph_3}</a>
+            <a to='/'>{props.page.Section_1_paragraph_4}</a>
+           
           </div>
           <div className='footer-link-items'>
-            <h2>{props.page.Section2}</h2>
-            <a to='/'>{props.page.section2a}</a>
-            <a to='/'>{props.page.section2b}</a>
-            <a to='/'>{props.page.section2c}</a>
-            <a to='/'>{props.page.section2d}</a>
+          <h2>{props.page.Section_2_title}</h2>
+            <a to='/sign-up'>{props.page.Section_2_paragraph_1}</a>
+            <a to='/'>{props.page.Section_2_paragraph_2}</a>
+            <a to='/'>{props.page.Section_2_paragraph_3}</a>
+            <a to='/'>{props.page.Section_2_paragraph_4}</a>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>{props.page.Section3}</h2>
-            <a to='/'>{props.page.section3a}</a>
-            <a to='/'>{props.page.section3b}</a>
-            <a to='/'>{props.page.section3c}</a>
-            <a to='/'>{props.page.section3d}</a>
+          <h2>{props.page.Section_3_title}</h2>
+            <a to='/'>{props.page.Section_3_paragraph_1}</a>
+            <a to='/'><i className="fab fa-github" />{props.page.Section_3_paragraph_2}</a>
+            <a to='/'>{props.page.Section_3_paragraph_3}</a>
+            <a to='/'>{props.page.Section_3_paragraph_4}</a>
           </div>
           <div className='footer-link-items'>
-          <h2>{props.page.Section4}</h2>
-            <a to='/'><i className='fab fa-instagram' />{props.page.section4a}</a>
-            <a to='/'><i className='fab fa-youtube' />{props.page.section4b}</a>
-            <a to='/'><i className='fab fa-facebook' />{props.page.section4c}</a>
-            <a to='/'><i className='fab fa-twitter' />{props.page.section4d}</a>
-            <a to='/'><i className='fab fa-linkedin' />LinkedIn</a>
+          <h2>{props.page.Section_4_title}</h2>
+            <a to='/'><i className='fab fa-instagram' />{props.page.Section_4_paragraph_1}</a>
+            <a to='/'><i className='fab fa-youtube' />{props.page.Section_4_paragraph_2}</a>
+            <a to='/'><i className='fab fa-facebook' />{props.page.Section_4_paragraph_3}</a>
+            <a to='/'><i className='fab fa-twitter' />{props.page.Section_4_paragraph_4}</a>
+            <a to='/'><i className='fab fa-linkedin' />{props.page.Section_4_paragraph_5}</a>
             
           </div>
         </div>
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
-          <small className='website-rights'>{props.page.footer_p}</small>
+          <small className='website-rights'>{props.page.footer_copyrights}</small>
           
         
         </div>

@@ -1,0 +1,25 @@
+.floatingDiv {
+  justify-content: space-around;
+  box-shadow: var(--boxShadow);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 0px 0px;
+  height: 80px !important;
+  margin-top: -60px !important;
+  margin-left: -100px !important;
+ background-color:antiquewhite !important;
+}
+
+.floatingDiv > img {
+  transform: scale(0.4);
+  margin-left: 5px !important;
+  
+}
+.floatingDiv > span {
+  font-family: sans-serif;
+  font-size: 16px;
+  /* yahan ye color add kia hy bad mein dark mode k waqt */
+  color: black;
+}
+

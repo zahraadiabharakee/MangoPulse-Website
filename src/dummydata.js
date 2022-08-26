@@ -207,7 +207,7 @@ export const homeAbout = [
       course: "60 Courses",
     }*/,
     {
-      cover: "./images/security (2).png",
+    
       hoverCover: "./images/security (2).png",
       courseName: "High Secuirty",
       course: "Member roles and permissions.",

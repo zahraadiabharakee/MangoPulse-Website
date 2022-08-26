@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
-
+import {constants} from "../Const";
 
 export const Banner = (props) => {
 
@@ -48,8 +48,12 @@ export const Banner = (props) => {
     }
   }
   if(props.page) {
+    var image ="";
+    if(props.page.Image && props.page.Image.data  && props.page.Image.data.attributes){
+     image = constants.link+props.page.Image.data.attributes.url ;
+    }
   return (
-    <section className="banner" id="home">
+    <section className="banner" id="home" style={{backgroundImage:`url(${image})`}}>
     
       <Container>
         <Row className="aligh-items-center">
@@ -76,8 +80,8 @@ export const Banner = (props) => {
           </Col>
           
         </Row>
-        <a><span className="tagline" id="x" href={props.page.linkAdmin} >{props.page.admin}</span></a>
-        <a><span className="tagline" id="y" href={props.page.linkFront}>{props.page.front}</span></a>
+        <a href={"https://as-mangopulse-admin.azurewebsites.net/Account/logon?ReturnUrl=%2F"} target="_blank"><span className="tagline" id="x" >{props.page.admin}</span></a>
+        <a href={"https://as-mangopulse-front.azurewebsites.net/"} target="_blank"><span className="tagline" id="y" >{props.page.front}</span></a>
       </Container>
 
     </section>

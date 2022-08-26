@@ -4,16 +4,20 @@ import { Container, Row, Col } from "reactstrap";
 import aboutImg from "../../assets/img/kx-hp-1_jicion.webp";
 import CountUp from "react-countup";
 import "./about.css";
-
+import {constants} from "../../Const"
 export const Aboutus = (props) =>  {
   if(props.page){
+    var image ="";
+    if(props.page.A_cardImage && props.page.A_cardImage.data && props.page.A_cardImage.data.length>0){
+     image = constants.link+props.page.A_cardImage.data[0].attributes.url ;
+    }
   return (
     <section>
       <Container>
         <Row>
           <Col lg="6" md="6">
             <div className="about__img">
-              <img src={aboutImg} alt="" className="w-100" />
+              <img src={image} alt="" className="w-100" />
             </div>
           </Col>
 

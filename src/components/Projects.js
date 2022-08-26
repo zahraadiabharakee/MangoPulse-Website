@@ -1,32 +1,15 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/zahrat-al-khalij.png";
-import projImg2 from "../assets/img/national.png";
-import projImg3 from "../assets/img/alitihad.png";
+import CardItem from './CardItem';
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
-
+import {constants} from "../Const"
 export const Projects = (props) => {
 
-  const projects = [
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
  
-  ];
   if(props.page){
+   
+    
   return (
     <section className="project" id="project">
       <Container>
@@ -40,7 +23,7 @@ export const Projects = (props) => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      
+   
                       <Nav.Link eventKey="first">{props.page.tab1}</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>

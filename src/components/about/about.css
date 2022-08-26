@@ -71,7 +71,7 @@
   }
 
   .backAnimation{
-    background-color: #FFB236 !important;
+    background-color: #8260D0 !important;
     position: absolute;
     z-index: 99;
     top: 50%;
@@ -99,5 +99,105 @@
     }
     .awrapper {
       height: 50vh;
+    }
+  }
+  .counter {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .Ad {
+    z-index: 10px !important;
+  }
+  .world-ad{
+    width:400px !important;
+    height:450px !important;
+    margin-left: 20px !important;
+  }
+  .section {
+    padding: 50px !important;
+    margin-top: 50px !important;
+  }
+  .section .Stat {
+     color:#fff !important;
+     font-size: 15px !important;
+     text-align: left !important;
+     letter-spacing: 1px !important;
+  }
+  .section .values {
+    color :#fff !important;
+    font-size: 70px !important;
+  }
+  .counter__title {
+    font-size: 1rem;
+    color:#fff !important ;
+    font-weight: 500;
+  }
+ 
+  .Ad__content {
+    padding:60px !important ;
+    color:#fff !important;
+  }
+  .Ad__content .title {
+    color:#fff !important; 
+    padding: 20px !important;
+    letter-spacing: 2px !important;
+    font-size: 40px !important;
+ }
+    .Ad__content .description {
+        color:#fff !important;
+        
+    }
+  button {
+    padding:10px 20px !important;
+  }
+  .Ad__img {
+    padding-bottom: 40px !important;
+  }
+ 
+  .Ad__content h2 {
+    margin-top: 50px !important;
+    font-weight: 600;
+   
+    letter-spacing: 2px !important;
+    text-align: center !important;
+  }
+  .Ad__content h4{
+    color:#fff !important ;
+    font-size:15px;
+    letter-spacing: 2px;
+  }
+  .Ad__content h4:hover{
+    transform: scale(1.01);
+  }
+ 
+  @media screen and (max-width:992px)
+  {
+    .Ad__content {
+      margin-left: -40px !important;
+      padding: 0 0 0 70px !important ;
+      
+    }
+    .Ad__img  {
+      margin-top: 100px !important;
+      margin-left: 0px !important;
+      width:350px !important;
+    }
+    
+  }
+  @media screen and (max-width:768px)
+  {
+    .Ad__content {
+      margin-left: -100px !important;
+      padding: 30px !important;
+    }
+
+
+  }
+  @media screen and (max-width:575px){
+    .Ad__img img {
+      margin-left: -20px !important;
+    }
+    .Ad__content h2{
+      margin-left: 100px !important;
     }
   }

@@ -17,9 +17,12 @@
 }
 
 .about__img img {
-  border-radius: 40px !important;
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-  
+  border-radius: none;
+  box-shadow: none;
+
+}
+.about__img {
+  padding-bottom: 40px !important;
 }
 
 .about__content h2 {
@@ -28,7 +31,7 @@
   text-align: center !important;
 }
 .about__content h4{
-  color: #ffb236 !important;
+  color: #8260D0 !important;
   font-size:15px;
   letter-spacing: 2px;
 }
@@ -38,7 +41,7 @@
 .about__content h2:after{
   display:block;
   height:10px;
-  background-color: #ffb236;
+  background-color: #8260D0;
   content:''; 
   width:140px;
   border-radius: 20px;
