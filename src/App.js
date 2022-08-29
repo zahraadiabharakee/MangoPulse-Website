@@ -26,7 +26,6 @@ import Team from "./components/team/Team";
 // import {FeatureProducts} from "./components/productsPage/FeatureProducts";
 import {Ad} from "./components/productsPage/Ad";
 import {Intro} from "./components/Intro/Intro";
-
 import Services from "./components/Services/Services";
 // import {CmsBanner} from "./components/cms-product-page/CmsBanner" ;
 // import {CmsProducts} from "./components/cms-product-page/CmsProducts" ;
@@ -63,17 +62,17 @@ function App() {
       <Qualification />
       <Demo page={homePage.demo}/>
       <Products page={homePage.products}/>
-   
-     <Services />
-      <Article page={homePage.Team}/>
-      <Features page={homePage.features} />
+    
+      <Services />
+      <Article page={homePage.blog}/>
+      <Features page={homePage.featrures} />
      
       <Cms page={homePage.cms} />
       {/* <FeatureProducts />  */}
       <Projects page={homePage.projects}/>
       
       <Contact page={homePage.contactbox} />
-      <Footer page={homePage.Footer}/>
+      <Footer page={homePage.footer}/>
    
       {/* <Ad page={homePage.cards} /> */}
       

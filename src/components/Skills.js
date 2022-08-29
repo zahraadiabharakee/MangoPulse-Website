@@ -35,8 +35,8 @@ export const Skills = (props) => {
        image2 = constants.link+props.page.img2.data.attributes.url ;
       }
       var image3 ="";
-      if(props.page.img3 && props.page.img3.data  && props.page.img3.data.length>0){
-       image3 = constants.link+props.page.img3.data[0].attributes.url ;
+      if(props.page.img3 && props.page.img3.data  && props.page.img3.data.attributes){
+       image3 = constants.link+props.page.img3.data.attributes.url ;
       }
       var image4 ="";
       if(props.page.img4 && props.page.img4.data  && props.page.img4.data.length>0){

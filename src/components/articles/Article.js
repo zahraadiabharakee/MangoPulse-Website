@@ -15,13 +15,13 @@ export const Article = (props) => {
      image2 = constants.link+props.page.img2.data.attributes.url ;
     }
     var image3 ="";
-    if(props.page.img3 && props.page.img3.data  && props.page.img3.data.attributes){
-     image3 = constants.link+props.page.img3.data.attributes.url ;
+    if(props.page.img3 && props.page.img3.data  && props.page.img3.data.length>0){
+     image3 = constants.link+props.page.img3.data[0].attributes.url ;
     }
   return (
     <>
      <section className="blog">
-      <Heading subtitle="Blog" title="Creating your web from scratch with the dedicated experience development team can be very expensive. "/>
+      <Heading subtitle={props.page.section_title} title="Creating your web from scratch with the dedicated experience development team can be very expensive. "/>
       <Container>
         <Row className="align-items-center">
           <Col size={9} md={4}>

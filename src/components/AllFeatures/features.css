@@ -109,6 +109,9 @@
     margin: 20px 0;
     line-height: 30px;
   }
+  .online p{
+    font-size: 15px !important;
+  }
   .online span {
  
     padding: 5px 20px;

@@ -17,8 +17,8 @@ export const Cms = (props) =>  {
      image1 = constants.link+props.page.cms_image_1.data.attributes.url ;
     }
     var image2 ="";
-    if(props.page.cms_image_2 && props.page.cms_image_2.data && props.page.cms_image_2.data.attributes){
-     image2 = constants.link+props.page.cms_image_2.data.attributes.url ;
+    if(props.page.cms_image_2 && props.page.cms_image_2.data && props.page.cms_image_2.data.length>0){
+     image2 = constants.link+props.page.cms_image_2.data[0].attributes.url ;
     }
     var image3 ="";
     if(props.page.cms_image_3 && props.page.cms_image_3.data && props.page.cms_image_3.data.attributes){
